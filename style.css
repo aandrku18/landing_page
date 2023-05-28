@@ -91,11 +91,14 @@ button {
     padding-bottom: 30px;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .images {
     display: flex;
     gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .images .image {
@@ -139,6 +142,7 @@ button {
 .citate_author {
     display: flex;
     flex-direction: column;
+    gap: 5px;
     padding: 80px;
 }
 
@@ -153,3 +157,48 @@ button {
     text-align: right;
     font-weight: bold;
 }
+
+.ad {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-block {
+    background-color: #3882f6;
+    padding: 25px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+} 
+
+.ad-block div {
+    flex-grow: 2;
+}
+
+.ad-block button {
+    flex-grow: 1;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ad_text1 {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ad_text2 {
+    color: #e5e7eb;
+}
+
