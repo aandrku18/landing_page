@@ -202,3 +202,16 @@ button {
     color: #e5e7eb;
 }
 
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
